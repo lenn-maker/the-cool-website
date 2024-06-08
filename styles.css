@@ -1,0 +1,57 @@
+body {
+    background: #000080 url('https://www.toptal.com/designers/subtlepatterns/patterns/circles.png');
+    color: lime;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: 2px 2px red;
+}
+
+a {
+    color: aqua;
+    text-decoration: blink;
+}
+
+marquee {
+    color: pink;
+    font-size: 24px;
+}
+
+#navigation {
+    background-color: purple;
+    padding: 20px;
+    border: 5px dotted yellow;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+#counter {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+table {
+    border: 5px solid blue;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+    background-color: pink;
+    color: blue;
+}
